@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 7px;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            text-align: center;
+            border: 10px solid black;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        nav{
+            background-color: rgb(173, 171, 171);
+            box-shadow: 5px 7px 11px 0px rgba(0, 0, 0, 0.597);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        nav > a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            padding: 100px;   
+;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        nav > a:active{
+            color: yellow;
+        }
+        main{
+            background-color: rgb(184, 174, 174);
+            box-shadow: 5px 7px 11px 0px rgba(0, 0, 0, 0.597);
+            border-radius:10px;
+            margin-top: 25px;
+        }
+        article{
+            background-color: rgb(193, 189, 189);
+            padding: 10px;
+            border-radius:10px;
+        }
+        article > aside{
+            color: white;
+            background-color: rgb(102, 92, 92);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 1px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            background-color: rgb(255, 255, 255);
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site De Testes</h1>
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem at repudiandae iusto in distinctio iure deserunt neque! Tempora, praesentium iure fugiat molestias necessitatibus vero culpa. Repellendus suscipit possimus ea!</p>
+                <aside>
+                    <p>Escrito pelo Antonio</p>
+                </aside>
+            </article>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, vel temporibus cum nesciunt quisquam facilis nulla commodi sunt tempore impedit? Sed consequatur ipsam minima fuga esse placeat, at rerum voluptatum.</p>
+                    <aside>
+                        <p>Antonio né pai</p>
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Antonio</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    background-color:darkslategrey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color:aquamarine;
+}
+h2{
+    color: cadetblue
+}
